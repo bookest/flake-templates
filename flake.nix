@@ -14,4 +14,5 @@
           description = "Python venv devShell";
        };
     };
+  };
 }
