@@ -12,3 +12,11 @@ desired template):
 ```
 nix flake init -t github:bookest/flake-templates#c-vcpkg
 ```
+
+Optionally setup `direnv` with flake support:
+
+```
+echo 'use flake' > .envrc
+direnv allow
+```
+
