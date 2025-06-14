@@ -13,6 +13,11 @@
           path = ./python-venv;
           description = "Python venv devShell";
        };
+
+       java-gradle = {
+         path = ./java-gradle;
+         description = "Java 21 and Gradle devShell";
+       };
     };
   };
 }
